@@ -19,4 +19,10 @@ WriteMakefile(
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'AnyEvent-STOMP-*' },
+    META_MERGE              => {
+        resources => {
+            repository  =>      'git://github.com/otterley/AnyEvent-STOMP.git',
+        },
+    },
 );
+

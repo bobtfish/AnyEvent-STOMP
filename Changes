@@ -1,5 +1,7 @@
 Revision history for AnyEvent-STOMP:
 
+        - Add repository metadata to META.yml generated for search.cpan
+
 0.6     Sat Apr 16 11:36:03 PDT 2011
         - BUGFIX: Only unregister connect callback in error handler 
           if one was specified.  (Thanks to Dexter Tad-y for the fix.)
